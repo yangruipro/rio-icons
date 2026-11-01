@@ -1,0 +1,59 @@
+<svg viewBox="0 0 680 480" width="680" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, PingFang SC, sans-serif">
+  <rect width="680" height="480" fill="#ffffff"/>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round"/>
+    </marker>
+  </defs>
+  <g stroke="#888780" stroke-width="1" fill="none">
+    <path d="M40 300 H640"/>
+  </g>
+  <text x="40" y="34" font-size="14" font-weight="500" fill="#26215C">① 中学定义：无穷远的一个点 → 汇聚成一个焦点</text>
+  <circle cx="62" cy="70" r="6" fill="#FAC775" stroke="#854F0B" stroke-width="0.5"/>
+  <text x="62" y="52" font-size="12" fill="#5F5E5A" text-anchor="middle">∞ 点光源</text>
+  <g stroke="#0F6E56" stroke-width="1.2" fill="none">
+    <path d="M70 54 H322" marker-end="url(#a)"/>
+    <path d="M70 70 H322" marker-end="url(#a)"/>
+    <path d="M70 86 H322" marker-end="url(#a)"/>
+    <path d="M340 54 L442 66"/>
+    <path d="M340 70 L442 70"/>
+    <path d="M340 86 L442 74"/>
+  </g>
+  <ellipse cx="332" cy="70" rx="7" ry="26" fill="#B5D4F4" stroke="#185FA5" stroke-width="0.5"/>
+  <circle cx="448" cy="70" r="3.5" fill="#E24B4A"/>
+  <text x="448" y="52" font-size="12" fill="#5F5E5A" text-anchor="middle">焦点 F</text>
+  <path d="M336 112 H444" stroke="#888780" stroke-width="1" fill="none" marker-start="url(#a)" marker-end="url(#a)"/>
+  <text x="390" y="130" font-size="12" fill="#5F5E5A" text-anchor="middle">焦距 f = 透镜到焦点的距离</text>
+
+  <text x="40" y="170" font-size="14" font-weight="500" fill="#26215C">② 无穷远的整个场景：每个点各自汇聚 → 焦平面上的倒像</text>
+  <circle cx="62" cy="212" r="4" fill="#FAC775" stroke="#854F0B" stroke-width="0.5"/>
+  <circle cx="62" cy="252" r="4" fill="#FAC775" stroke="#854F0B" stroke-width="0.5"/>
+  <text x="62" y="196" font-size="12" fill="#5F5E5A" text-anchor="middle">场景上部</text>
+  <text x="62" y="272" font-size="12" fill="#5F5E5A" text-anchor="middle">场景下部</text>
+  <g stroke="#0F6E56" stroke-width="1.1" fill="none">
+    <path d="M70 212 L326 232"/><path d="M70 212 L326 246"/>
+    <path d="M70 252 L326 252"/><path d="M70 252 L326 238"/>
+    <path d="M340 232 L442 250"/><path d="M340 246 L442 250"/>
+    <path d="M340 252 L442 234"/><path d="M340 238 L442 234"/>
+  </g>
+  <ellipse cx="332" cy="242" rx="7" ry="26" fill="#B5D4F4" stroke="#185FA5" stroke-width="0.5"/>
+  <rect x="443" y="216" width="7" height="52" rx="2" fill="#9FE1CB" stroke="#0F6E56" stroke-width="0.5"/>
+  <circle cx="447" cy="250" r="2.5" fill="#E24B4A"/><circle cx="447" cy="234" r="2.5" fill="#E24B4A"/>
+  <text x="470" y="212" font-size="12" fill="#5F5E5A">传感器（焦平面）</text>
+  <text x="470" y="250" font-size="12" fill="#5F5E5A">上部→下、下部→上：倒像</text>
+  <path d="M336 284 H442" stroke="#888780" stroke-width="1" fill="none" marker-start="url(#a)" marker-end="url(#a)"/>
+  <text x="389" y="302" font-size="12" fill="#5F5E5A" text-anchor="middle">对焦无穷远时：镜头到传感器 恰好 = 焦距 f</text>
+
+  <text x="40" y="342" font-size="14" font-weight="500" fill="#26215C">③ 拍近处物体：像落在更远处 → 镜头前移（对焦）</text>
+  <path d="M88 386 L326 402" stroke="#0F6E56" stroke-width="1.1" fill="none"/>
+  <path d="M88 412 L326 396" stroke="#0F6E56" stroke-width="1.1" fill="none"/>
+  <ellipse cx="332" cy="400" rx="7" ry="26" fill="#B5D4F4" stroke="#185FA5" stroke-width="0.5"/>
+  <path d="M340 402 L486 418" stroke="#0F6E56" stroke-width="1.1" fill="none"/>
+  <path d="M340 396 L486 380" stroke="#0F6E56" stroke-width="1.1" fill="none"/>
+  <rect x="492" y="372" width="7" height="52" rx="2" fill="#9FE1CB" stroke="#0F6E56" stroke-width="0.5"/>
+  <text x="520" y="376" font-size="12" fill="#5F5E5A">倒像落在传感器上</text>
+  <path d="M430 360 V440" stroke="#888780" stroke-width="0.8" stroke-dasharray="4 4" fill="none"/>
+  <text x="430" y="354" font-size="12" fill="#5F5E5A" text-anchor="middle">f 位置（对焦∞时）</text>
+  <path d="M336 452 H482" stroke="#888780" stroke-width="1" fill="none" marker-start="url(#a)" marker-end="url(#a)"/>
+  <text x="409" y="470" font-size="12" fill="#5F5E5A" text-anchor="middle">像距 v &gt; f：物体越近，v 越大</text>
+</svg>
